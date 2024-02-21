@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ana - Página Inicial</title>
+    <link rel="stylesheet" href="CSS/css01.css">
+    
+</head>
+<body>
+    <header>
+        <h1>Discord Programação</h1>
+    </header>
+    <figure>
+        <img id="ImagemDiscord" src="Imagens/Discord.jpg" alt="Imagem Ícone Discord">
+        <h2>Algumas Linguagens Estudadas</h2>
+        <img id="IconeProgramacao1" src="Imagens/JavaScript_Logo.png" alt="Icone do JavaScript">
+        <img id="IconeProgramacao2" src="Imagens/png-clipart-c-logo-c-programming-language-computer-icons-computer-programming-programming-miscellaneous-blue.png" alt="Icone de C#">
+        <img id="IconeProgramacao3" src="Imagens/python-logo-png-open-2000.png" alt="Icone da Logo Python">
+        <br><br>
+        <table id="LinguagensProgramacao" style="width:100%;text-align:center;">
+            <caption>Linguagens de Programação Estudadas</caption>
+            <thead>
+                <tr>
+                    <th>Front-End</th>
+                    <th>Back-End</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <td>JavaScript</td>
+                    <td>C#</td>
+                </tr>
+                <tr>
+                    <td>CSS</td>
+                    <td>Python</td>
+                </tr>
+            </tbody>
+            <tfoot>
+                <tr>
+                    <td>HTML</td>
+                    <td>Java</td>
+                </tr>
+            </tfoot>
+        
+        </table>
+        <p>
+            Uma Introdução sobre o que é GitHub<br>
+        <iframe width="560" height="315" src="https://youtu.be/DqTITcMq68k" frameborder="0" allowfullscreen></iframe>
+        </p>
+    </figure>
+    <section>
+        <h1 id = "AreaDeCadastro">Cadastre-se</h1>
+        <form id="FormularioCadastro" onsubmit="return coletarDadosCadastro()">
+            <label>Usuário</label><br>
+            <input type="text" required id="UsuarioCadastro" name="usuarioCadastro"><br>
+            <label>E-mail</label><br>
+            <input type="text" required id="EmailCadastro" name="usuarioCadastro"><br>
+            <label>Senha</label><br>
+            <input type="Password" required id="SenhaCadastro" name="senhaCadastro"><br>
+            <label>Confirme sua Senha</label><br>
+            <input type="password" required id="SenhaCadastroConfirmacao" name="senhaCadastroConfirmacao"></label><br><br>
+            <button>Enviar</button>
+        </form>
+        
+        <script src="script.js"></script>
+    </section>
+    <footer style="text-align: center;">
+        <p>Desenvolvido por Ana</p>
+    </footer>
+</body>
+</html>
